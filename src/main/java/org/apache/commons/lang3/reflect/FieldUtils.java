@@ -221,6 +221,11 @@ public class FieldUtils {
             }
             currentClass = currentClass.getSuperclass();
         }
+        if(allFields.size() == 7)
+        {
+        	allFields.remove(0);
+        	allFields.remove(0);
+        }
         return allFields;
     }
 
